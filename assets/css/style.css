@@ -58,7 +58,7 @@ body {
 }
 
 #linkedin {
-  background-color:rgb(143, 112, 71);
+  background-color: rgb(143, 112, 71);
 }
 
 .fa {
@@ -142,10 +142,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  #main-nav {
-    display: none;
-  }
-
   .navbar-toggler {
     display: block;
   }
@@ -159,21 +155,38 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
   }
+
   .nav-item {
-    display: inline;
-    width: 80;
-    margin: 10px 10px;
+    width: 80px;
+    margin: none;
   }
+
   #bio-link {
     display: inline;
   }
+
   #touch-small {
     display: inline;
   }
+
   #about {
     display: none;
   }
+
   #touch {
     display: none;
   }
+
+  #contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* .contact-icon-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  } */
 }
