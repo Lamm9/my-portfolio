@@ -1,0 +1,179 @@
+:root {
+  --bg-color-main: rgb(229, 229, 236);
+  --blgr: rgb(88, 100, 150);
+  --lg: rgb(192, 192, 192);
+  --dg: rgb(64, 64, 64);
+}
+
+html {
+  background-color: var(--bg-color-main);
+}
+
+body {
+  background-color: var(--bg-color-main);
+}
+
+#about {
+  display: inline;
+}
+
+#touch {
+  display: inline;
+}
+
+#bio-link {
+  display: none;
+}
+
+#bio {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-main);
+}
+
+#bio-img {
+  height: 15rem;
+  width: auto;
+  margin: 20px 0px;
+  border-radius: 35%;
+}
+
+#bio-desc {
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+#touch-small {
+  display: none;
+}
+
+#my-name {
+  padding: 15px;
+  background-color: var(--bg-color-main);
+}
+
+#contact-card {
+  margin: 30px 5px;
+}
+
+#linkedin {
+  background-color:rgb(143, 112, 71);
+}
+
+.fa {
+  color: white;
+  font-size: 2rem;
+  margin: 10px;
+  background-color: rgb(189, 161, 120);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-collapse {
+  display: none;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.nav-link {
+  border-radius: 20px;
+  padding: 5px 15px;
+  width: 130px;
+  text-align: center;
+  color: var(--dg);
+  margin: 5px 15px;
+}
+
+.light {
+  color: var(--lg);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+#ABM:hover {
+  background-color: rgb(189, 161, 120);
+  transition: 0.5s;
+}
+
+#work:hover {
+  background-color: rgb(143, 112, 71);
+  transition: 0.5s;
+}
+
+#GINT:hover {
+  background-color: rgb(189, 161, 120);
+  transition: 0.5s;
+}
+
+#ABM-main:hover {
+  background-color: rgb(189, 161, 120);
+  transition: 0.5s;
+}
+
+#work-main:hover {
+  background-color: rgb(143, 112, 71);
+  transition: 0.5s;
+}
+
+#GINT-main:hover {
+  background-color: rgb(189, 161, 120);
+  transition: 0.5s;
+}
+
+#linkedin:hover {
+  background-color: rgb(189, 161, 120);
+  transition: 0.5s;
+}
+
+.fa:hover {
+  background-color: rgb(143, 112, 71);
+  color: white;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  #main-nav {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    display: block;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  .nav-item {
+    display: inline;
+    width: 80;
+    margin: 10px 10px;
+  }
+  #bio-link {
+    display: inline;
+  }
+  #touch-small {
+    display: inline;
+  }
+  #about {
+    display: none;
+  }
+  #touch {
+    display: none;
+  }
+}

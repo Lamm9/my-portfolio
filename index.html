@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link 
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>The Lamm Portfolio</title>
+  </head>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a id="homelink" class="navbar-brand" href="#">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a id="ABM" class="nav-link" aria-current="page" href="#bio">
+                <span id="about">About Me</span>
+                <span id="bio-link">Bio</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a id="work" class="nav-link" href="#projects">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a id="GINT" class="nav-link" href="#contact">
+                <span id="touch">Get in Touch</span>
+                <span id="touch-small">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <h1 id="my-name" class="text-center display-4 pt-5">
+      Hi, I'm Harrison Lamm
+    </h1>
+    <div id="bio" class="container-fluid text-center">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+          <img
+            id="bio-img"
+            src="./assets/images/bio-img.jpeg"
+            alt="Harrison Lamm"
+            class="img-fluid"
+          />
+        <p id="bio-desc" class="text-center">I'm a full-stack web developer from southern California. I'm a grateful follower of Jesus Christ, and I love web design and creating graphics.</p>
+      </div>
+    </div>
+
+    <div id="projects" class="container-fluid text-center">
+      <div class="row justify-content-center">
+        <h2 id="work-title" class="text-center display-3 mt-5">My Work</h2>
+        <p id="proj-desc" class="text-center pt-3">Here is some of my work. Click on the images to be taken to the deployed site.</p>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card m-3">
+              <a href="https://bootleg-twitter.herokuapp.com/">
+                <img id="proj-1-img" alt="Bootleg Twitter" class="card-img-top" src="./assets/images/bootleg-twitter.png">
+              </a>
+              <h3 class="card-title">Bootleg Twitter</h3>
+              <p class="card-text">A Twitter clone made for bootcamp</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card m-3">
+              <img id="proj-2-img" alt="proj-2" class="card-img">
+              <h3 class="card-title">Proj-2</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card m-3">
+              <img id="proj-3-img" alt="proj-3" class="card-img">
+              <h3 class="card-title">Proj-3</h3>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card m-3">
+              <img id="proj-4-img" alt="proj-4" class="card-img">
+              <h3 class="card-title">Proj-4</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container justify-content-center mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h2 id="contact-title" class="text-center display-3 mt-5">
+              Get in Touch
+            </h2>
+            <p id="contact-desc" class="text-center pt-4 pb-3">
+              I'm always looking for work and for opportunities to connect with other developers. Feel free to
+              reach out to me on any of the platforms below.
+            </p>
+        </div>
+        <div class="card" id="contact-card"></div>
+          <div class="card-body">
+            <div class="row mb-5">
+              <div class="col-sm">
+                <a href="https://www.instagram.com/itsharrisonlamm/" class="fa fa-instagram"></a>
+              </div>
+              <div class="col-sm">
+                <a href="https://www.linkedin.com/in/harrison-lamm-458064249/" class="fa fa-linkedin" id="linkedin"></a>
+              </div>
+              <div class="col-sm">
+                <a href="https://github.com/Lamm9" class="fa fa-github"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
