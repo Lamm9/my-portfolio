@@ -7,6 +7,7 @@
 
 html {
   background-color: var(--bg-color-main);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -92,20 +93,41 @@ body {
   margin: 5px 15px;
 }
 
+.nav-link {
+  text-decoration: none;
+  background:
+    linear-gradient(
+      to right,
+      rgb(192, 74, 94),
+      rgba(192, 74, 94, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+}
+
 .light {
   color: var(--lg);
 }
 
 .nav-link:hover {
-  color: white;
+  color: black;
+  background-size: 0 3px, 100% 3px;
+  transition: 0.2s;
 }
 
-#ABM:hover {
+/* #ABM:hover {
   background-color: rgb(189, 161, 120);
   transition: 0.5s;
-}
+} */
 
-#work:hover {
+/* #work:hover {
   background-color: rgb(143, 112, 71);
   transition: 0.5s;
 }
@@ -128,7 +150,7 @@ body {
 #GINT-main:hover {
   background-color: rgb(189, 161, 120);
   transition: 0.5s;
-}
+} */
 
 #linkedin:hover {
   background-color: rgb(189, 161, 120);
@@ -178,15 +200,41 @@ body {
   }
 
   #contact-icons {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    padding: 10px;
+    align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  /* .contact-icon-links {
+  #ig {
     display: flex;
-    flex-wrap: wrap;
+    width: 55px;
+  }
+
+  #linkedin {
+    display: flex;
+    width: 55px;
+  }
+
+  #gh {
+    display: flex;
+    width: 55px;
+  }
+
+  .contact-icon-links {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+  }
+
+  .fa {
+    display: flex;
     flex-direction: row;
-  } */
+    flex-wrap: wrap;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+  }
 }
