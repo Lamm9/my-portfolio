@@ -3,6 +3,7 @@
   --blgr: rgb(88, 100, 150);
   --lg: rgb(192, 192, 192);
   --dg: rgb(64, 64, 64);
+  --purple: #6f42c1;
 }
 
 html {
@@ -56,30 +57,48 @@ body {
 
 #proj-col {
   width: 60%;
+  position: relative;
 }
 
 #proj-1-img {
-  width: 20%;
+  width: 80px;
   height: auto;
   border-radius: 10px;
+  position: absolute;
+  left: 3%;
+  top: 10%;
 }
 
-#BT-img {
-  position: relative;
+#BT-header {
+  margin: 20px 0px;
+}
+
+#BT-link {
+  position: absolute;
+  right: 3%;
+  bottom: 10%;
 }
 
 #contact-card {
   margin: 30px 5px;
 }
 
+.text-purple {
+  color: var(--purple);
+}
+
+.tech-list {
+  justify-content: start;
+}
+
 .fa {
   color: white;
-  font-size: 1.9rem;
+  font-size: 4rem;
   margin: 10px;
   background-color: var(--dg);
   border-radius: 50%;
   padding: 10px;
-  width: 50px;
+  width: 85px;
 }
 
 .navbar-toggler {
@@ -158,7 +177,7 @@ body {
     background: red; /* default color */
 
     /* "to left" / "to right" - affects initial color */
-    background: linear-gradient(to left, rgb(2, 0, 99), rgb(0, 48, 207), rgb(24, 0, 110)) right;
+    background: linear-gradient(to left, rgb(2, 0, 99), rgb(0, 48, 207), rgb(8, 99, 236), rgb(0, 48, 207), rgb(24, 0, 110)) right;
     background-size: 200%;
     transition: 400ms ease-out;
 }
@@ -181,6 +200,18 @@ body {
 
 #gh:hover {
   background-position: left;
+}
+
+@media screen and (max-width: 1350px) {
+  .fa {
+    color: white;
+    font-size: 1.9rem;
+    margin: 10px;
+    background-color: var(--dg);
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
