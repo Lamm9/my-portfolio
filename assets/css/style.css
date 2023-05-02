@@ -81,8 +81,16 @@ body {
   margin: 20px 0px;
 }
 
+#BT-role {
+  color: rgb(0, 162, 255);
+}
+
 #QV-header {
   margin: 20px 0px;
+}
+
+#QV-role {
+  color: rgb(248, 226, 164);
 }
 
 #qv-title {
