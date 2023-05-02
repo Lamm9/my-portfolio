@@ -54,6 +54,20 @@ body {
   background-color: var(--bg-color-main);
 }
 
+#proj-col {
+  width: 60%;
+}
+
+#proj-1-img {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#BT-img {
+  position: relative;
+}
+
 #contact-card {
   margin: 30px 5px;
 }
@@ -85,7 +99,6 @@ body {
   width: 100px;
   margin: 0px 40px;
   text-align: center;
-
 }
 
 .nav-link {
@@ -99,18 +112,13 @@ body {
 
 .nav-link {
   text-decoration: none;
-  background:
-    linear-gradient(
-      to right,
-      var(--lg),
-      var(--lg)
-    ),
+  background: linear-gradient(to right, var(--lg), var(--lg)),
     linear-gradient(
       to right,
       rgba(255, 0, 0, 1),
       rgba(255, 0, 180, 1),
       rgba(0, 100, 200, 1)
-  );
+    );
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -127,39 +135,52 @@ body {
   transition: 0.2s;
 }
 
+#ig {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background: red; /* default color */
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, rgb(255, 191, 17), rgb(207, 0, 104), rgb(89, 0, 140)) right;
+    background-size: 200%;
+    transition: 400ms ease-out;
+}
+
 #ig:hover {
-  transition: 400ms;
-  background: linear-gradient(
-    to right,
-    rgb(89, 0, 140),
-    rgb(207, 0, 104),
-    rgb(255, 191, 17)
-  );
-  color: white;
+  background-position: left;
+}
+
+#linkedin {
+  display: inline-block;
+    text-align: center;
+    color: white;
+    background: red; /* default color */
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, rgb(2, 0, 99), rgb(0, 48, 207), rgb(24, 0, 110)) right;
+    background-size: 200%;
+    transition: 400ms ease-out;
 }
 
 #linkedin:hover {
-  transition: 400ms;
-  background: linear-gradient(
-    55deg,
-    rgb(0, 12, 117),
-    rgb(0, 12, 117),
-    rgb(0, 36, 239),
-    rgb(69, 118, 255)
-  );
-  color: white;
+  background-position: left;
+}
+
+#gh {
+  display: inline-block;
+    text-align: center;
+    color: white;
+    background: red; /* default color */
+
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, rgb(43, 43, 43), rgb(43, 43, 43), rgb(160, 160, 160), rgb(43, 43, 43), rgb(43, 43, 43)) right;
+    background-size: 200%;
+    transition: 400ms ease-out;
 }
 
 #gh:hover {
-  transition: 400ms;
-  background: linear-gradient(
-    110deg,
-    rgb(0, 0, 0),
-    rgb(0, 0, 0),
-    rgb(94, 94, 94),
-    rgb(0, 0, 0)
-  );
-  color: white;
+  background-position: left;
 }
 
 @media screen and (max-width: 768px) {
@@ -178,8 +199,12 @@ body {
   }
 
   .nav-item {
-    width: 80px;
+    width: 60px;
     margin: none;
+  }
+
+  .nav-link {
+    width: 70px;
   }
 
   #bio-link {
