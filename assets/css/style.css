@@ -141,10 +141,23 @@ body {
 #linkedin:hover {
   transition: 400ms;
   background: linear-gradient(
-    to right,
+    55deg,
+    rgb(0, 12, 117),
     rgb(0, 12, 117),
     rgb(0, 36, 239),
-    rgb(0, 12, 117)
+    rgb(69, 118, 255)
+  );
+  color: white;
+}
+
+#gh:hover {
+  transition: 400ms;
+  background: linear-gradient(
+    110deg,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(94, 94, 94),
+    rgb(0, 0, 0)
   );
   color: white;
 }
