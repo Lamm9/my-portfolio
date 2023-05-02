@@ -68,7 +68,16 @@ body {
   position: relative;
 }
 
-#proj-1-img {
+#BT-img {
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  left: 3%;
+  top: 10%;
+}
+
+#QV-img {
   width: 80px;
   height: auto;
   border-radius: 10px;
@@ -79,6 +88,12 @@ body {
 
 #BT-header {
   margin: 20px 0px;
+}
+
+#BT-title {
+  position: absolute;
+  top: 15%;
+  left: 11%;
 }
 
 #BT-role {
@@ -258,6 +273,30 @@ body {
 }
 
 @media screen and (max-width: 1350px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    display: block;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-item {
+    width: 60px;
+    margin: none;
+  }
+
+  .nav-link {
+    width: 70px;
+  }
+
   #touch {
     display: none;
   }
@@ -272,6 +311,21 @@ body {
 
   #work-small {
     display: inline;
+  }
+
+  #BT-title {
+    left: 20%;
+    top: 5%;
+  }
+
+  #BT-img {
+    left: 0;
+    top: 5%;
+  }
+
+  #QV-img {
+    left: 1%;
+    top: 8%;
   }
 
   .fa {
@@ -298,11 +352,24 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+  .proj-link {
+    position: absolute;
+    bottom: 8%;
+    right: 37%;
+  }
+
   #proj-col {
     width: 100%;
   }
 
-  #proj-1-img {
+  #BT-img {
+    width: 50px;
+    left: 1%;
+    top: 2.5%;
+  }
+
+  #QV-img {
     width: 50px;
     left: 1%;
     top: 2.5%;
