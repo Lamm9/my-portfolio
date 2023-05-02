@@ -4,6 +4,10 @@
   --lg: rgb(192, 192, 192);
   --dg: rgb(64, 64, 64);
   --purple: #6f42c1;
+  --dp: #110935;
+  --blue: #0d6efd;
+  --lb: #94bbe9;
+  --pink: #eeaeca;
 }
 
 html {
@@ -77,10 +81,24 @@ body {
   margin: 20px 0px;
 }
 
-#BT-link {
+#QV-header {
+  margin: 20px 0px;
+}
+
+#qv-title {
+  color: rgb(248, 226, 164);
+}
+
+.proj-link {
+  text-decoration: none;
+  color: var(--blue);
   position: absolute;
   right: 3%;
   bottom: 10%;
+}
+
+#qv-card {
+  background: radial-gradient(var(--lb), var(--dp) 70%);
 }
 
 #contact-card {
@@ -89,6 +107,10 @@ body {
 
 .text-purple {
   color: var(--purple);
+}
+
+.text-qv {
+  color: rgb(248, 226, 164);
 }
 
 .tech-list {
@@ -158,15 +180,21 @@ body {
 }
 
 #ig {
-    display: inline-block;
-    text-align: center;
-    color: white;
-    background: red; /* default color */
+  display: inline-block;
+  text-align: center;
+  color: white;
+  background: red; /* default color */
 
-    /* "to left" / "to right" - affects initial color */
-    background: linear-gradient(to left, rgb(255, 191, 17), rgb(207, 0, 104), rgb(89, 0, 140)) right;
-    background-size: 200%;
-    transition: 400ms ease-out;
+  /* "to left" / "to right" - affects initial color */
+  background: linear-gradient(
+      to right,
+      rgb(89, 0, 140),
+      rgb(207, 0, 104),
+      rgb(255, 191, 17)
+    )
+    right;
+  background-size: 200%;
+  transition: 400ms ease-out;
 }
 
 #ig:hover {
@@ -175,14 +203,22 @@ body {
 
 #linkedin {
   display: inline-block;
-    text-align: center;
-    color: white;
-    background: red; /* default color */
+  text-align: center;
+  color: white;
+  background: red; /* default color */
 
-    /* "to left" / "to right" - affects initial color */
-    background: linear-gradient(to left, rgb(2, 0, 99), rgb(0, 48, 207), rgb(8, 99, 236), rgb(0, 48, 207), rgb(24, 0, 110)) right;
-    background-size: 200%;
-    transition: 400ms ease-out;
+  /* "to left" / "to right" - affects initial color */
+  background: linear-gradient(
+      to left,
+      rgb(2, 0, 99),
+      rgb(0, 48, 207),
+      rgb(8, 99, 236),
+      rgb(0, 48, 207),
+      rgb(24, 0, 110)
+    )
+    right;
+  background-size: 200%;
+  transition: 400ms ease-out;
 }
 
 #linkedin:hover {
@@ -191,14 +227,22 @@ body {
 
 #gh {
   display: inline-block;
-    text-align: center;
-    color: white;
-    background: red; /* default color */
+  text-align: center;
+  color: white;
+  background: red; /* default color */
 
-    /* "to left" / "to right" - affects initial color */
-    background: linear-gradient(to left, rgb(43, 43, 43), rgb(43, 43, 43), rgb(160, 160, 160), rgb(43, 43, 43), rgb(43, 43, 43)) right;
-    background-size: 200%;
-    transition: 400ms ease-out;
+  /* "to left" / "to right" - affects initial color */
+  background: linear-gradient(
+      to left,
+      rgb(43, 43, 43),
+      rgb(43, 43, 43),
+      rgb(160, 160, 160),
+      rgb(43, 43, 43),
+      rgb(43, 43, 43)
+    )
+    right;
+  background-size: 200%;
+  transition: 400ms ease-out;
 }
 
 #gh:hover {
@@ -246,6 +290,16 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  #proj-col {
+    width: 100%;
+  }
+
+  #proj-1-img {
+    width: 50px;
+    left: 1%;
+    top: 2.5%;
+  }
+
   .navbar-toggler {
     display: block;
   }
@@ -295,24 +349,24 @@ body {
   }
 
   #ig {
-    display: flex;
+    display: inline-block;
     width: 55px;
   }
 
   #linkedin {
-    display: flex;
+    display: inline-block;
     width: 55px;
   }
 
   #gh {
-    display: flex;
+    display: inline-block;
     width: 55px;
   }
 
-  .contact-icon-links {
+  #contact-icons {
     align-items: center;
     justify-content: center;
-    display: inline-block;
+    display: inline;
   }
 
   .fa {
