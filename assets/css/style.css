@@ -58,17 +58,14 @@ body {
   margin: 30px 5px;
 }
 
-#linkedin {
-  background-color: rgb(143, 112, 71);
-}
-
 .fa {
   color: white;
-  font-size: 2rem;
+  font-size: 1.9rem;
   margin: 10px;
-  background-color: rgb(189, 161, 120);
+  background-color: var(--dg);
   border-radius: 50%;
   padding: 10px;
+  width: 50px;
 }
 
 .navbar-toggler {
@@ -82,6 +79,13 @@ body {
 .navbar-nav {
   display: flex;
   flex-flow: row nowrap;
+}
+
+.nav-item {
+  width: 100px;
+  margin: 0px 40px;
+  text-align: center;
+
 }
 
 .nav-link {
@@ -98,8 +102,8 @@ body {
   background:
     linear-gradient(
       to right,
-      rgb(192, 74, 94),
-      rgba(192, 74, 94, 1)
+      var(--lg),
+      var(--lg)
     ),
     linear-gradient(
       to right,
@@ -110,6 +114,7 @@ body {
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
+  transition: background-size 400ms;
 }
 
 .light {
@@ -122,45 +127,26 @@ body {
   transition: 0.2s;
 }
 
-/* #ABM:hover {
-  background-color: rgb(189, 161, 120);
-  transition: 0.5s;
-} */
-
-/* #work:hover {
-  background-color: rgb(143, 112, 71);
-  transition: 0.5s;
+#ig:hover {
+  transition: 400ms;
+  background: linear-gradient(
+    to right,
+    rgb(89, 0, 140),
+    rgb(207, 0, 104),
+    rgb(255, 191, 17)
+  );
+  color: white;
 }
-
-#GINT:hover {
-  background-color: rgb(189, 161, 120);
-  transition: 0.5s;
-}
-
-#ABM-main:hover {
-  background-color: rgb(189, 161, 120);
-  transition: 0.5s;
-}
-
-#work-main:hover {
-  background-color: rgb(143, 112, 71);
-  transition: 0.5s;
-}
-
-#GINT-main:hover {
-  background-color: rgb(189, 161, 120);
-  transition: 0.5s;
-} */
 
 #linkedin:hover {
-  background-color: rgb(189, 161, 120);
-  transition: 0.5s;
-}
-
-.fa:hover {
-  background-color: rgb(143, 112, 71);
+  transition: 400ms;
+  background: linear-gradient(
+    to right,
+    rgb(0, 12, 117),
+    rgb(0, 36, 239),
+    rgb(0, 12, 117)
+  );
   color: white;
-  transition: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
