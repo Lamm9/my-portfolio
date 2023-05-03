@@ -8,6 +8,7 @@
   --blue: #0d6efd;
   --lb: #94bbe9;
   --pink: #eeaeca;
+  --yellow: rgb(255, 191, 17);
 }
 
 html {
@@ -96,6 +97,18 @@ body {
   left: 11%;
 }
 
+#BT-link {
+  position: absolute;
+  right: 3%;
+  bottom: 10%;
+}
+
+#BT-link:hover {
+  color: var(--yellow);
+  background-color: var(--dg);
+  transition: 400ms;
+}
+
 #BT-role {
   color: rgb(0, 162, 255);
 }
@@ -124,8 +137,28 @@ body {
   background: radial-gradient(var(--lb), var(--dp) 70%);
 }
 
+#QV-link {
+  position: absolute;
+  right: 3%;
+  bottom: 10%;
+}
+
+#QV-link:hover {
+  color: var(--yellow);
+  background-color: var(--dg);
+  transition: 400ms;
+}
+
 #contact-card {
   margin: 30px 5px;
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-purple {
+  background-color: var(--purple);
 }
 
 .text-purple {
