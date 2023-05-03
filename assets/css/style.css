@@ -151,6 +151,13 @@ body {
 
 #contact-card {
   margin: 30px 5px;
+  text-align: center;
+  justify-content: center;
+}
+
+#contact-icons {
+  justify-content: center;
+  text-align: center;
 }
 
 .bg-blue {
@@ -455,13 +462,27 @@ body {
     display: none;
   }
 
-  #contact-icons {
-    padding: 10px;
+  #contact-card {
+    display: flex;
     align-items: center;
-    justify-content: center;
+  }
+
+  #contact-icons {
+    align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  #my-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact-icon-links {
+    align-self: center;
+    width: auto;
   }
 
   #ig {
@@ -528,12 +549,6 @@ body {
     100% {
       background: rgb(20, 20, 20);
     }
-  }
-
-  #contact-icons {
-    align-items: center;
-    justify-content: center;
-    display: inline;
   }
 
   .fa {
