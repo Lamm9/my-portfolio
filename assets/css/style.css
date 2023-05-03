@@ -312,7 +312,7 @@ body {
   background-position: left;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1400px) {
   .navbar-toggler {
     display: block;
   }
@@ -335,6 +335,14 @@ body {
 
   .nav-link {
     width: 70px;
+  }
+
+  #about {
+    display: none;
+  }
+
+  #bio-link {
+    display: inline;
   }
 
   #touch {
@@ -370,12 +378,12 @@ body {
 
   .fa {
     color: white;
-    font-size: 1.9rem;
+    font-size: 3rem;
     margin: 10px;
     background-color: var(--dg);
     border-radius: 50%;
     padding: 10px;
-    width: 50px;
+    width: 70px;
   }
 
   .nav-link {
