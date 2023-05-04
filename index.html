@@ -62,30 +62,34 @@
   </header>
 
   <body>
-    <h1 id="my-name" class="text-center display-4 pt-5">
-      Hi, I'm Harrison Lamm
-    </h1>
-    <div id="bio" class="container-fluid text-center">
+    <div class="container-fluid mb-5">
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div>
+          <div id="bio">
+            <h1 id="my-name" class="display-4">Hi, I'm Harrison Lamm</h1>
+            <p id="bio-desc" class="text-center">
+              I'm a full-stack web developer from southern California. I'm a
+              grateful follower of Jesus Christ, and I love web design and
+              creating graphics.
+            </p>
+          </div>
           <img
             id="bio-img"
             src="./assets/images/bio-img.jpeg"
             alt="Harrison Lamm"
             class="img-fluid"
           />
-          <p id="bio-desc" class="text-center">
-            I'm a full-stack web developer from southern California. I'm a
-            grateful follower of Jesus Christ, and I love web design and
-            creating graphics.
-          </p>
+          <div id="need-btns" class="text-center">
+            <a class="btn bg-dg need" href="#contact"> Need a designer? </a>
+            <a class="btn bg-dg need" href="#contact"> Need an artist? </a>
+          </div>
         </div>
       </div>
     </div>
 
     <div id="projects" class="container-fluid text-center">
       <div class="row justify-content-center">
-        <h2 id="work-title" class="text-center display-3 mt-5">My Work</h2>
+        <h2 id="work-title" class="text-center display-3">My Work</h2>
         <p id="proj-desc" class="text-center pt-3">
           Here is some of my work. Click on the check it links to be taken to
           the deployed site.
@@ -120,13 +124,13 @@
                   <span>Back-End</span>
                 </div>
               </div>
-              <button
+              <a
                 class="btn bg-blue"
                 id="BT-link"
                 href="https://bootleg-twitter.herokuapp.com/"
               >
                 Check it out
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -154,13 +158,13 @@
                 <span>Front-End</span>
               </div>
             </div>
-            <button
+            <a
               class="btn bg-purple text-qv"
               id="QV-link"
               href="https://lamm9.github.io/first-group-project/"
             >
               Check it out
-            </button>
+            </a>
           </div>
         </div>
       </div>

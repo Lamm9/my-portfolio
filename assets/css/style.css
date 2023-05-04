@@ -28,29 +28,6 @@ body {
   display: inline;
 }
 
-#bio-link {
-  display: none;
-}
-
-#bio {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--bg-color-main);
-}
-
-#bio-img {
-  height: 15rem;
-  width: auto;
-  margin: 20px 0px;
-  border-radius: 35%;
-}
-
-#bio-desc {
-  margin: 20px 20px;
-  padding: 20px 20px;
-}
-
 #touch-small {
   display: none;
 }
@@ -59,9 +36,32 @@ body {
   display: none;
 }
 
+#bio-link {
+  display: none;
+}
+
+#bio {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  margin: 10% 5% 10% 15%;
+}
+
+#bio-img {
+  height: 25rem;
+  width: auto;
+  border-radius: 35%;
+  position: relative;
+}
+
 #my-name {
   padding: 15px;
   background-color: var(--bg-color-main);
+  position: relative;
+}
+
+#projects {
+  margin-top: 10%;
 }
 
 #proj-col {
@@ -160,6 +160,14 @@ body {
   text-align: center;
 }
 
+.bg-lg {
+  background-color: var(--lg);
+}
+
+.bg-dg {
+  background-color: var(--dg);
+}
+
 .bg-blue {
   background-color: var(--blue);
 }
@@ -178,6 +186,16 @@ body {
 
 .tech-list {
   justify-content: start;
+}
+
+.need {
+  color: var(--lg);
+}
+
+.need:hover {
+  color: white;
+  background-color: black;
+  transition: 0.6s ease-out;
 }
 
 .fa {
@@ -335,6 +353,38 @@ body {
 
   .nav-link {
     width: 70px;
+  }
+
+  #my-name {
+    font-size: 2rem;
+    padding: none;
+  }
+
+  #bio {
+    margin: 10% 5% 0 10%;
+    position: relative;
+    top: 8%;
+  }
+
+  #bio-img {
+    width: 15rem;
+    height: auto;
+    padding: none;
+    bottom: 5%;
+    border-radius: 2% 35% 2% 35%;
+  }
+
+  #need-btns {
+    margin: 5% 2%;
+    left: 50%;
+  }
+
+  .need {
+    margin: 0 2%;
+  }
+
+  #projects {
+    margin-top: 5%;
   }
 
   #about {
