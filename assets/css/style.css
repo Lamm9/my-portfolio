@@ -477,12 +477,11 @@ body {
 
 @media screen and (max-width: 1200px) {
   #bio {
-    display: inline-block;
-    justify-content: center;
     margin-top: 0;
     margin-bottom: 15%;
     position: relative;
     top: 20%;
+    width: 100;
   }
 
   #bio-desc {
