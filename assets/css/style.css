@@ -44,7 +44,16 @@ body {
   display: inline-block;
   width: 40%;
   text-align: center;
-  margin: 10% 5% 10% 15%;
+  margin: 10% 3% 0 18%;
+  position: relative;
+  top: 15%;
+}
+
+#bio-desc {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  margin: 0 3% 10% 18%;
 }
 
 #bio-img {
@@ -52,11 +61,11 @@ body {
   width: auto;
   border-radius: 35%;
   position: relative;
+  bottom: 5%;
 }
 
 #my-name {
   padding: 15px;
-  background-color: var(--bg-color-main);
   position: relative;
 }
 
@@ -190,6 +199,7 @@ body {
 
 .need {
   color: var(--lg);
+  margin: 0 10px 0;
 }
 
 .need:hover {
@@ -361,21 +371,30 @@ body {
   }
 
   #bio {
-    margin: 10% 5% 0 10%;
+    margin: 10% 5% 5% 10%;
     position: relative;
     top: 8%;
+  }
+  
+  #bio-desc {
+    width: 15rem;
+    height: auto;
+    padding: none;
+    position: relative;
+    right: 3%;
+    border-radius: 2% 35% 2% 35%;
   }
 
   #bio-img {
     width: 15rem;
     height: auto;
     padding: none;
-    bottom: 5%;
+    bottom: 20%;
     border-radius: 2% 35% 2% 35%;
   }
 
   #need-btns {
-    margin: 5% 2%;
+    margin: 0 2%;
     left: 50%;
   }
 
@@ -385,6 +404,12 @@ body {
 
   #projects {
     margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  #contact {
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   #about {
@@ -450,6 +475,34 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  #bio {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 15%;
+    position: relative;
+    top: 20%;
+  }
+
+  #bio-desc {
+    text-align: center;
+    display: inline;
+    position: relative;
+    top: 15%;
+  }
+
+  #bio-img {
+    width: 8rem;
+    height: auto;
+    padding: none;
+    bottom: 45%;
+    left: 50%;
+    border-radius: 2% 35% 2% 35%;
+  }
+
+  #need-btns {
+    margin: none;
+  }
 
   .proj-link {
     position: absolute;
@@ -545,7 +598,6 @@ body {
 
   #ig {
     display: inline-block;
-    width: 55px;
     animation-name: igBackground;
 	  animation-duration: 5s;
 	  animation-iteration-count: infinite;
@@ -567,9 +619,8 @@ body {
 
   #linkedin {
     display: inline-block;
-    width: 55px;
     animation-name: linkBackground;
-	  animation-duration: 4s;
+	  animation-duration: 3s;
 	  animation-iteration-count: infinite;
 	  animation-direction: normal;
 	  animation-timing-function: linear;
@@ -589,7 +640,6 @@ body {
 
   #gh {
     display: inline-block;
-    width: 55px;
     animation-name: ghBackground;
 	  animation-duration: 3s;
 	  animation-iteration-count: infinite;
@@ -601,11 +651,14 @@ body {
     0% {
       background: rgb(20, 20, 20);
     }
+    25% {
+      background: rgb(20, 20, 20);
+    }
     50% {
       background: rgb(68, 68, 68);
     }
     100% {
-      background: rgb(20, 20, 20);
+      background: rgb(105, 105, 105);
     }
   }
 
