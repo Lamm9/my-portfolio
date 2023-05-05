@@ -490,14 +490,14 @@ body {
     display: inline;
     position: relative;
     top: 23%;
-    right: 20%;
+    left: 20%;
   }
 
   #bio-img {
     width: 8rem;
     height: auto;
     padding: none;
-    top: 20%;
+    top: 15%;
     left: 50%;
     border-radius: 2% 35% 2% 35%;
   }
@@ -505,6 +505,7 @@ body {
   #my-name {
     font-size: 2rem;
     margin-top: 60%;
+    margin-right: 30%;
     margin-bottom: none;
   }
 
