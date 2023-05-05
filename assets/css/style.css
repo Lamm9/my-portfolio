@@ -497,13 +497,14 @@ body {
     width: 8rem;
     height: auto;
     padding: none;
-    top: 15%;
+    top: 25%;
     border-radius: 2% 35% 2% 35%;
   }
 
   #my-name {
     font-size: 2rem;
-    margin-top: 20%;
+    margin-top: 40%;
+    margin-bottom: none;
     position: relative;
     top: 35%;
   }
