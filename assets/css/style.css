@@ -482,14 +482,14 @@ body {
     margin-top: 0;
     margin-bottom: 15%;
     position: relative;
-    top: 45%;
+    top: 20%;
   }
 
   #bio-desc {
     text-align: center;
     display: inline;
     position: relative;
-    top: 20%;
+    top: 50%;
     left: .5%;
   }
 
@@ -497,9 +497,14 @@ body {
     width: 8rem;
     height: auto;
     padding: none;
-    bottom: 65%;
+    bottom: 100%;
     left: 50%;
     border-radius: 2% 35% 2% 35%;
+  }
+
+  #my-name {
+    position: relative;
+    top: 30%;
   }
 
   #need-btns {
