@@ -504,10 +504,12 @@ body {
   #my-name {
     font-size: 2rem;
     margin-top: 10%;
+    position: relative;
+    top: 15%;
   }
 
   #need-btns {
-    margin: 15% 0 5% 0;
+    margin: 10% 0 5% 0;
   }
 
   .proj-link {
