@@ -500,14 +500,15 @@ body {
     top: 15%;
     left: 50%;
     border-radius: 2% 35% 2% 35%;
+    position: absolute;
   }
 
   #my-name {
     font-size: 2rem;
+    text-align: center;
     margin-top: 60%;
     margin-right: 30%;
     margin-bottom: none;
-    display: inline;
   }
 
   #need-btns {
