@@ -341,7 +341,7 @@ body {
   background-position: left;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   .navbar-toggler {
     display: block;
   }
@@ -489,7 +489,7 @@ body {
     text-align: center;
     display: inline;
     position: relative;
-    top: 50%;
+    top: 15%;
     left: .5%;
   }
 
@@ -497,14 +497,9 @@ body {
     width: 8rem;
     height: auto;
     padding: none;
-    bottom: 100%;
+    bottom: 45%;
     left: 50%;
     border-radius: 2% 35% 2% 35%;
-  }
-
-  #my-name {
-    position: relative;
-    top: 30%;
   }
 
   #need-btns {
