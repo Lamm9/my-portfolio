@@ -503,10 +503,8 @@ body {
 
   #my-name {
     font-size: 2rem;
-    margin-top: 40%;
+    margin-top: 60%;
     margin-bottom: none;
-    position: relative;
-    top: 55%;
   }
 
   #need-btns {
