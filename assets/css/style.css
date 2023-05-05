@@ -490,7 +490,7 @@ body {
     display: inline;
     position: relative;
     top: 23%;
-    left: 20%;
+    left: 5%;
   }
 
   #bio-img {
@@ -507,6 +507,7 @@ body {
     margin-top: 60%;
     margin-right: 30%;
     margin-bottom: none;
+    display: inline;
   }
 
   #need-btns {
