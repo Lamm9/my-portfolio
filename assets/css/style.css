@@ -497,13 +497,16 @@ body {
     width: 8rem;
     height: auto;
     padding: none;
-    bottom: 45%;
-    left: 50%;
+    top: 12%;
     border-radius: 2% 35% 2% 35%;
   }
 
+  #my-name {
+    font-size: 2rem;
+  }
+
   #need-btns {
-    margin: none;
+    margin: 20% 0 0;
   }
 
   .proj-link {
