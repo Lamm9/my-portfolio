@@ -488,6 +488,7 @@ body {
     text-align: center;
     display: inline;
     position: relative;
+    left: .5%;
     top: 23%;
   }
 
@@ -496,12 +497,16 @@ body {
     height: auto;
     padding: none;
     border-radius: 2% 35% 2% 35%;
+    position: relative;
+    top: 15%;
   }
 
   #my-name {
     font-size: 2rem;
     text-align: center;
     margin-bottom: none;
+    position: relative;
+    top: 15%;
   }
 
   #need-btns {
