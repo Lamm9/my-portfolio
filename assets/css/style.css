@@ -475,7 +475,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   #bio {
     display: inline-block;
     justify-content: center;
