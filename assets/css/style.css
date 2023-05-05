@@ -497,8 +497,7 @@ body {
     width: 8rem;
     height: auto;
     padding: none;
-    top: 5%;
-    left: 5%;
+    bottom: 5%;
     border-radius: 2% 35% 2% 35%;
     position: absolute;
   }
